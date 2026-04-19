@@ -1,0 +1,54 @@
+title: "[Wishlist] "
+labels: ["wishlist", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what MatchRox is missing. Focus on the **athlete goal** — not the feature spec. We'll figure out how to build it.
+
+        One idea per post so others can upvote. Search first — someone may have already asked.
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: The athlete goal, not the feature. "Find a partner for a specific race in a city I'm traveling to."
+      placeholder: I'm trying to…
+    validations:
+      required: true
+
+  - type: textarea
+    id: today
+    attributes:
+      label: How does MatchRox handle this today?
+      description: What falls short, what's confusing, what doesn't exist yet.
+      placeholder: Right now the app…
+    validations:
+      required: true
+
+  - type: textarea
+    id: ideal
+    attributes:
+      label: How would you want it to work?
+      description: Rough sketch is fine. Don't worry about feasibility.
+      placeholder: It'd be great if…
+    validations:
+      required: true
+
+  - type: textarea
+    id: others
+    attributes:
+      label: Who else does this help?
+      description: Just you? Doubles racers? Masters athletes? First-timers? Optional.
+      placeholder: (optional)
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What are you doing in the meantime?
+      description: Any workaround? Another app? A spreadsheet? Optional but helps us gauge urgency.
+      placeholder: (optional)
+    validations:
+      required: false
