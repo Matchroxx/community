@@ -4,13 +4,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report this. For **critical issues** (app won't launch, can't log in, billing problems), please use in-app support instead — those go straight to our queue.
+        Thanks for taking the time to report this. A few things before you post:
+
+        - **Critical issues** (app won't launch, can't log in, billing problems) → use in-app support (Settings → Support). Those go straight to our queue.
+        - **Reporting another athlete** (harassment, spam, fake profile) → use the in-app Report flow on their profile, not here.
+        - **Security vulnerabilities** → see [SECURITY.md](https://github.com/Matchroxx/community/blob/main/SECURITY.md).
+        - **Don't post private info.** No message contents, partner IDs, email addresses, or other athletes' profile details. Redact names in screenshots.
 
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      description: What did you see? Screenshots or screen recordings help a lot.
+      description: What did you see? Screenshots or screen recordings help a lot — just redact any names or personal info first.
       placeholder: When I tapped X, the screen froze for about 3 seconds then…
     validations:
       required: true
