@@ -1,0 +1,73 @@
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. For **critical issues** (app won't launch, can't log in, billing problems), please use in-app support instead — those go straight to our queue.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see? Screenshots or screen recordings help a lot.
+      placeholder: When I tapped X, the screen froze for about 3 seconds then…
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: I expected…
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered list if you can. "Sometimes" or "once" is useful too — tell us what you remember.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: How often does this happen?
+      options:
+        - Every time
+        - Most of the time
+        - Sometimes
+        - Once, and I can't repro it
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: MatchRox version
+      description: Settings → tap the version number at the bottom
+      placeholder: e.g. 1.4.2 (238)
+    validations:
+      required: true
+
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS version
+      placeholder: e.g. iOS 26.1
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. iPhone 16 Pro
+    validations:
+      required: true
