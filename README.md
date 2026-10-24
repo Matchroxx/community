@@ -2,7 +2,7 @@
 
 Public feedback home for the **[MatchRox](https://matchrox.com)** iOS app.
 
-> MatchRox is a partner-matching app for HYROX athletes. This repo isn't the app or its source — it's the place where we gather product feedback at scale.
+> MatchRox is the operating system for HYROX doubles teams: find a HYROX doubles partner or bring the one you race with, then plan the stations and race-day pacing together. This repo isn't the app or its source — it's the place where we gather product feedback at scale.
 
 ## What lives here
 
@@ -34,5 +34,5 @@ The team reads every post. Wishlist upvotes directly influence what we build nex
 
 ## Get the app
 
-- **iOS:** [App Store](https://apps.apple.com/app/matchrox) *(iOS 26+)*
+- **iOS:** [Join the beta on TestFlight](https://testflight.apple.com/join/mkSw7FeX) *(iOS 26+)*
 - **Website:** [matchrox.com](https://matchrox.com)
